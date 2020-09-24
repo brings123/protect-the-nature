@@ -91,6 +91,7 @@ h3{
 }
 #social-medias h4{
     margin: 1rem 0;
+    font-size: 1.5rem;
     
 }
 h2{
@@ -180,4 +181,29 @@ h2{
 #social-medias{
     padding: 2rem;
     text-align: center;
+}
+@media(max-width:520px){
+    #slogan .slogan-image h2{
+        position: absolute;
+        font-size: 2rem;
+        top: 30%;
+        z-index: 6;
+        left: 19%;
+        color:white;
+    
+    }
+    #slogan .slogan-image{  
+        height: 200px;
+    }
+    .social{
+        gap: 1em;
+    }
+    .social a img{
+        min-height: 100%;
+        min-width: 100%;
+    }
+    .social a{
+        height: 50px;
+        width: 50px;
+    }
 }
