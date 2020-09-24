@@ -6,7 +6,7 @@
 body{
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    
+    background-color: #efe;
     line-height: 1.5;
 }
 a{
@@ -42,6 +42,7 @@ h3{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    color:white;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -76,4 +77,64 @@ h3{
 }
 .header{
     z-index: 10;
+}
+#about{
+    padding: 1rem 4rem;
+    max-width: 65em;
+    text-align: center;
+    margin: 0 auto;
+}
+#about h2, #about h4{
+    margin: 1rem 0;
+}
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#about .material-icons{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+#about .ligne{
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+    height: 6px;
+    border: none;
+    background-color: black;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    border-radius: 4px;
+}
+#about p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding:.8rem 2em;
+    justify-content: center;
+}
+.social-icon{
+    transform: scale(0.9);
+    transition: transform 250ms ease-in-out ;
+}
+.social-icon:hover{
+    transform: scale(1);
+}
+.footer{
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    padding: 1rem 0;
+}
+.footer .material-icons{
+    font-size: .8rem;
+    color: red;
+}
+.footer .strong{
+    font-weight: 700;
 }

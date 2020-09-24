@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Save The Planet</title>
 </head>
@@ -20,13 +23,30 @@
     </section>
     
     <section id="about">
+<div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+     <i class="large material-icons">arrow_drop_down</i>
+       
+</div>
         <h2>About us</h2>
+        <hr class="ligne">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam excepturi quaerat voluptatibus impedit beatae, dolorum maxime natus laborum accusantium cumque sed nobis similique odit molestias ea adipisci cum provident omnis.</p>
         <h4>Follow us on social medias</h4>
             
         <div class="social">
-            
+            <a href="#"><img src="./icons/fb.png" alt="fb" class="social-icon"></a>
+            <a href="#"><img src="./icons/youtube.png" alt="youtube" class="social-icon"></a>
+            <a href="#"><img src="./icons/insta.png" alt="insta" class="social-icon"></a>
+            <a href="#"><img src="./icons/twitter.png" alt="twitter" class="social-icon"></a>
         </div>
     </section>
+    <footer class="footer">
+        <p>Made with <i class="large material-icons">favorite</i> by <span class="strong">Chakib</span></p>
+        &copy; 2020
+    </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
