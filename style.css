@@ -146,14 +146,16 @@ h2{
     font-weight: 700;
 }
 #slogan .slogan-image{
-    background-image: url('./icons/bear.jpg');
+    background: url('./icons/bear.jpg'), radial-gradient(#777,#333);
+    background-blend-mode: multiply;
     width: 100%;
     min-width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center ;
     height:500px;
-    position:relative;
+    text-align: center;
+    padding: 11em 0;
     min-width: 100%;
     max-height:100%;
     object-fit: cover;
@@ -165,16 +167,13 @@ h2{
     height: 100%;
     background: rgba(0, 0,0,.4);
     z-index: 5;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 #slogan .slogan-image h2{
-    position: absolute;
-    font-size: 4rem;
-    top: 40%;
+
+    font-size: 4.5rem;
+
     z-index: 6;
-    left: 19%;
+
     color:white;
 
 }
@@ -183,18 +182,10 @@ h2{
     text-align: center;
 }
 @media(max-width:520px){
-    #slogan .slogan-image h2{
-        position: absolute;
-        font-size: 2rem;
-        top: 30%;
-        z-index: 6;
-        left: 19%;
-        color:white;
-    
+     #slogan .slogan-image h2{
+        font-size: 3rem;
     }
-    #slogan .slogan-image{  
-        height: 200px;
-    }
+
     .social{
         gap: 1em;
     }
